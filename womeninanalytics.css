@@ -50,11 +50,11 @@ body {
     width: 70%;
   }
 
-.drawer-menu {
+.drawer-menu{
     width: 0px;
     height: 100%;
     background-color: rgb(26, 23, 23);
-    opacity: 95%;
+    /* opacity: 95%; */
     padding-block: 20px;
     position: fixed;
     z-index: 1;
@@ -62,8 +62,9 @@ body {
     top: 0;
     right: 0;
     transition: 0.5s;
-    box-shadow: -3px 0px 5px -1px rgba(0, 0, 0, 0.5);
+    box-shadow: -80px 0px  0px -1px rgba(24, 23, 23, 0.9);
 }
+
 
 .drawer-menu .drawer-close {
     display: flex;
@@ -72,7 +73,7 @@ body {
 }
 
 .drawer-menu .drawer-close span {
-    font-size: 18px;
+    font-size: 30px;
     color: white;
     font-weight: bold;
     text-align: right;
@@ -131,7 +132,7 @@ body {
     transition: .5s;
 }
 
-.hero-area{
+/* .hero-area{
     height: 391px;
     width: 100%;
     background-color: red;
@@ -152,6 +153,32 @@ body {
     margin-left: 20px;
   }
 .hero-area img{
+    width: 40%;
+} */
+
+
+.hero-area {
+    /* height: 391px; */
+    /* width: 100%; */
+    background-color: red;
+}
+
+.hero-text {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+}
+
+.hero-text h2 {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+    font-size: 55px;
+    margin-left: 20px;
+}
+
+.hero-area img {
     width: 40%;
 }
 
@@ -281,7 +308,6 @@ footer {
     }
 
     .body-texte p{
-        /* text-align: center; */
         font-size: 18px;
         max-width: 90%;
         margin: 50px;
@@ -289,7 +315,6 @@ footer {
     .body-texte2 p {
         flex-direction: column-reverse;
         margin: 20px
-        /* text-align: center; */
     }
 
     .logo-footer {
